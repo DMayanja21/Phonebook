@@ -8,19 +8,19 @@ body {
 }
 #container{
 	background:#FFD700;
-	padding: 3%;
+	padding: 5%;
 }
 #inputs{
 	background: #FFA500;
-	padding: 3%;	
+	padding: 5%;	
 }
 #search{
 	background: #FF7F50;
-	padding: 3%;
+	padding: 5%;
 }
 #lists{
 	background: #FF8C00;
-	padding: 3%;
+	padding: 5%;
 }
 #header{
 	background: #800000;
@@ -29,4 +29,16 @@ body {
 h2{
 	background: #FF0000;
 	color:    #FFFFFF;
+}
+table, th, td{
+	border-style: solid;
+	border-color: black;
+	border-radius: 1px;
+	border-collapse: collapse;
+	width: 80%;
+	padding: 3%
+}
+table{
+	column-width: initial;	
+	text-align: center;
 }
